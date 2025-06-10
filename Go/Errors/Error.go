@@ -35,7 +35,7 @@ func divide(a, b int) (int, error) {
 
 func validateAge(age int) error {
 	if age <= 0 {
-		return ErrUnderAge // Возвращаем именно эту ошибку
+		return ErrUnderAge
 	}
 	return nil
 }
